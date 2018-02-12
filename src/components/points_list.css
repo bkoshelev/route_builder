@@ -1,0 +1,37 @@
+.draggable--original {
+  visibility: hidden;
+}
+
+.draggable-source--is-dragging {
+  visibility: hidden;
+}
+
+#points_list {
+  height: 290px;
+  overflow: auto;
+}
+
+.list_row {
+  width: 100%;
+  min-heigth: 52px;
+  display: grid;
+  margin-bottom: 10px;
+  grid-template: 1fr / 80% 20%;
+}
+
+.list_row div {
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 2px #e5e5e5;
+  padding-left: 10px;
+  cursor: -webkit-grab;
+  line-height: 26px;
+}
+
+.list_row svg {
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+.draggable--is-dragging {
+  cursor: -webkit-grabbing;
+}
