@@ -1,6 +1,6 @@
 # route_builder
 
-![](https://i.imgur.com/ZCoNR5D.png)
+![](https://i.imgur.com/Ysg8cjI.png)
 
 ## Описание
 
