@@ -21,6 +21,7 @@
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-drag-sortable": "^1.0.5",
     "react-input-mask": "^1.1.2",
     "react-redux": "^5.0.6",
     "react-render-html": "^0.6.0",
@@ -64,11 +65,7 @@
     "type": "git",
     "url": "https://github.com/heroku/node-js-getting-started"
   },
-  "keywords": [
-    "node",
-    "heroku",
-    "express"
-  ],
+  "keywords": ["node", "heroku", "express"],
   "jest": {
     "moduleNameMapper": {
       "\\.(css)$": "<rootDir>/node_modules/jest-css-modules"

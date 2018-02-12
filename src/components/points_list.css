@@ -32,6 +32,6 @@
   cursor: pointer;
 }
 
-.draggable--is-dragging {
+.dragged {
   cursor: -webkit-grabbing;
 }
