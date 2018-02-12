@@ -1,0 +1,28 @@
+---
+
+plugins:
+  - 'react'
+  - 'jest'
+
+env:
+  browser: true
+
+extends:
+  - 'airbnb-base'
+  - 'plugin:react/recommended'
+  - 'plugin:jest/recommended'
+
+parser:
+  "babel-eslint"
+
+rules:
+  no-console: 0
+  react/jsx-uses-react": 1,
+  react/jsx-uses-vars": 0
+  no-underscore-dangle: 0
+  react/prop-types: 0
+  no-alert: 0
+
+parserOptions:
+    ecmaFeatures:
+        jsx: true
